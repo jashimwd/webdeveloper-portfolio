@@ -60,7 +60,7 @@ nav a{
     background-image: url('../image/iiilikjuj.jpg');
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size: 600px;
+    background-size: 700px;
 }
 .banner{
     padding: 30px 30px 0px 150px;
@@ -89,11 +89,24 @@ nav a{
 }
 
 /* main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section style */
 .about{
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px 0;
+    margin: 130px  0;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
 }
